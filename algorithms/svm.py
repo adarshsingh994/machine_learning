@@ -5,7 +5,7 @@ import numpy as np
 style.use('ggplot')
 
 class SupportVectorMachine:
-	"""docstring for ClassName"""
+	
 	def __init__(self, visualization = True):
 		self.visualization = visualization
 		self.colors = {1: 'r', -1: 'b'}
